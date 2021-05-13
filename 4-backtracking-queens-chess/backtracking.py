@@ -7,6 +7,7 @@
 
 #### v1
 """
+import sys
 
 
 def printBoard(board):
@@ -70,8 +71,11 @@ def solveQueens(board):
 
 if __name__ == "__main__":
 
-    with open('1.in', 'r') as file:
-        content = file.readlines()
+    # with open('1.in', 'r') as file:
+    #     content = file.readlines()
+
+    data = sys.stdin.readlines()
+    content = [line.rstrip() for line in data]
 
     n_test_cases = int(content[0])
 
