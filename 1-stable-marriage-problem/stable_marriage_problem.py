@@ -1,14 +1,11 @@
 # -*- coding: utf-8 -*-
-"""stable-marriage-problem.ipynb
-
+"""
 # Stable Marriage Problem
 ## SCC5900 - Algorithm Design
 
 ### Lecture 1
 
 #### v1.1
-
-## Read File
 """
 import sys
 
